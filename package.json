@@ -5,15 +5,16 @@
   "module": "dist/add-lib.esm.js",
   "browser": "dist/add-lib.umd.js",
   "scripts": {
+    "test": "jest",
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "test": "node test/test.js",
     "pretest": "yarn build"
   },
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.1",
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
+    "jest": "^25.1.0",
     "rollup": "^2.0.2"
   },
   "author": "ethany",
