@@ -1,6 +1,6 @@
 {
   "name": "vanillajs-lib-starter-rollup",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "dist/add-lib.cjs.js",
   "module": "dist/add-lib.esm.js",
   "browser": "dist/add-lib.umd.js",
@@ -10,12 +10,17 @@
     "dev": "rollup -c -w",
     "pretest": "yarn build"
   },
+  "homepage": "https://github.com/Youzhigang/vanillajs-lib-starter-rollup.git#readme",
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.1",
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
     "jest": "^25.1.0",
     "rollup": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Youzhigang/vanillajs-lib-starter-rollup.git"
   },
   "author": "ethany",
   "files": [
